@@ -1,0 +1,11 @@
+# Command: add-doxygen-docs
+# Description: 为代码库添加完整的 Doxygen 中文注释文档
+# Category: 文档
+# Version: 1.0
+# Author: hututu
+
+description = "为代码库添加完整的 Doxygen 中文注释文档"
+
+prompt = """
+{"detailContext":"### 文件头注释\n在每个源文件开头添加文件级注释块，使用 /** */ 格式，包含：\n- @file 文件名\n- @brief 功能简述（一句话）\n- @feature-dev\\references\\phase-details.md 详细功能描述\n- @author 作者信息,我的名字是hututu\n- @skill-creator\\scripts\\quick_validate.py 创建/修改日期\n- @version 版本号（如适用）\n\n### 函数/方法注释\n为每个函数和方法添加注释块，包含：\n- @brief 功能简述\n- @param 每个参数的说明（参数名 + 中文描述）\n- @return 返回值说明（如有）\n- @note 注意事项（如有）\n- @warning 警告信息（如有）\n\n### 类注释\n为每个类添加注释，包含：\n- @class 类名\n- @brief 类的简要说明\n- @feature-dev\\references\\phase-details.md 详细功能和用途\n- 主要成员变量和方法的概述\n\n### 其他要求\n- 所有注释使用中文\n- 对于简单的 getter/setter 方法可使用简化注释\n- 枚举和结构体使用 @enum 和 @struct 标签\n- 对废弃的函数使用 @deprecated 标记\n","list":[]}
+"""
