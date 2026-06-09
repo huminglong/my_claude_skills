@@ -5,7 +5,7 @@
 **模块化的 Claude AI 技能扩展包，让 Claude 成为你的专业领域专家**
 
 [![Skills](https://img.shields.io/badge/Skills-11-blue?style=flat-square)](.)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](.)
+[![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 [概述](#概述) • [可用技能](#可用技能) • [快速开始](#快速开始) • [项目结构](#项目结构) • [核心原则](#核心原则)
 
